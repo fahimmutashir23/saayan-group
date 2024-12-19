@@ -1,33 +1,118 @@
 import banner_1 from "../../../../assets/Banner/banner_1.jpg";
-// import banner_2 from "../../../../assets/Banner/banner_2.jpg";
+import banner_2 from "../../../../assets/Banner/banner_2.jpg";
 import banner_3 from "../../../../assets/Banner/banner_3.jpg";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/Components/ui/carousel";
+import { Link } from "react-router";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-2 lg:gap-6 lg:h-[70vh] overflow-hidden">
-      <div
-        className="border lg:w-3/4 bg-cover bg-center bg-no-repeat p-2 lg:p-10 flex items-center"
-        style={{ backgroundImage: `url(${banner_1})` }}
+    <div className="">
+      <Carousel
+        opts={{
+          align: "start",
+          loop: true,
+        }}
+        className="relative"
       >
-        <div className="space-y-3">
-          <h1 className="text-2xl lg:text-5xl font-semibold text-white bg-color_3/40 max-w-fit p-4">
-            BEST THEME
-          </h1>
-          <p className="lg:text-lg font-medium">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
-            doloremque nostrum ducimus ex necessitatibus. Amet placeat hic atque
-            suscipit veritatis.
-          </p>
-          <button className="bg-color_4/20 p-2 border border-white text-xl text-white font-medium flex items-center">
-            Read More
-            <MdKeyboardArrowRight className="mt-1 text-2xl" />
-          </button>
-        </div>
-      </div>
-      <div className="border lg:w-1/4">
-        <img src={banner_3} className="w-full h-full object-cover" alt="" />
-      </div>
+        <CarouselContent className="">
+          <CarouselItem className="">
+            <div
+              style={{ backgroundImage: `url(${banner_1})` }}
+              className="flex flex-col lg:flex-row lg:h-[90vh] overflow-hidden bg-cover bg-center bg-no-repeat relative"
+            >
+              <div className="w-full bg-blue-700/70 flex flex-col justify-center items-center space-y-3">
+                <h1
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  className="text-white font-bold text-2xl lg:text-5xl text-center"
+                >
+                  Quality digital <br /> solutions
+                </h1>
+                <p
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  className="max-w-md mx-auto text-justify"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam in eius possimus error officiis fugit expedita,
+                  quae pariatur quibusdam exercitationem?
+                </p>
+                <Link className="flex items-center text-xl bg-color_2 py-3 px-6 text-white font-semibold">
+                  View Our Service
+                  <MdKeyboardArrowRight className="text-3xl" />
+                </Link>
+              </div>
+            </div>
+          </CarouselItem>
+          <CarouselItem className="">
+            <div
+              style={{ backgroundImage: `url(${banner_2})` }}
+              className="flex flex-col lg:flex-row lg:h-[90vh] overflow-hidden bg-cover bg-center bg-no-repeat relative"
+            >
+              <div className="w-full bg-blue-700/70 flex flex-col justify-center items-center space-y-3">
+                <h1
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  className="text-white font-bold text-2xl lg:text-5xl text-center"
+                >
+                  Quality digital <br /> solutions
+                </h1>
+                <p
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  className="max-w-md mx-auto text-justify"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam in eius possimus error officiis fugit expedita,
+                  quae pariatur quibusdam exercitationem?
+                </p>
+                <Link className="flex items-center text-xl bg-color_2 py-3 px-6 text-white font-semibold">
+                  View Our Service
+                  <MdKeyboardArrowRight className="text-3xl" />
+                </Link>
+              </div>
+            </div>
+          </CarouselItem>
+          <CarouselItem className="">
+            <div
+              style={{ backgroundImage: `url(${banner_3})` }}
+              className="flex flex-col lg:flex-row lg:h-[90vh] overflow-hidden bg-cover bg-center bg-no-repeat relative"
+            >
+              <div className="w-full bg-blue-700/70 flex flex-col justify-center items-center space-y-3">
+                <h1
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  className="text-white font-bold text-2xl lg:text-5xl text-center"
+                >
+                  Quality digital <br /> solutions
+                </h1>
+                <p
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                  className="max-w-md mx-auto text-justify"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam in eius possimus error officiis fugit expedita,
+                  quae pariatur quibusdam exercitationem?
+                </p>
+                <Link className="flex items-center text-xl bg-color_2 py-3 px-6 text-white font-semibold">
+                  View Our Service
+                  <MdKeyboardArrowRight className="text-3xl" />
+                </Link>
+              </div>
+            </div>
+          </CarouselItem>
+        </CarouselContent>
+        <CarouselPrevious className="absolute left-3" />
+        <CarouselNext className="absolute right-3" />
+      </Carousel>
     </div>
   );
 };

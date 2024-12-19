@@ -16,24 +16,7 @@ const NavbarMiddle = () => {
           <MdOutlineMenu onClick={() => setOpen(!open)} className="text-2xl" />
         </div>
         <div className="lg:flex-1 flex justify-center lg:justify-start">
-          <Link to='/' className="lg:text-7xl font-bold text-black">LOGO</Link>
-        </div>
-        <div className="hidden lg:flex lg:items-center lg:w-full lg:flex-1">
-          <div className="relative w-full">
-            <input
-              type="search"
-              id="phone"
-              //   onChange={(e) => setPhone(e.target.value)}
-              className="px-2 border w-full py-3 border-gray-700 focus:outline-none"
-              placeholder="Search Your Product"
-            />
-            <button
-              //   onClick={handleSearch}
-              className="absolute bg-color_1 h-full px-4 right-0"
-            >
-              <FaMagnifyingGlass className="text-xl text-white" />
-            </button>
-          </div>
+          <Link to='/' className="lg:text-4xl font-bold text-black">LOGO</Link>
         </div>
         <div className="flex lg:hidden items-center gap-4 flex-1 justify-end relative">
           <div

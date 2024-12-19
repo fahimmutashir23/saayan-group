@@ -12,9 +12,9 @@ export default {
   theme: {
   	extend: {
   		colors: {
-  			color_1: '#1F4529',
-  			color_2: '#47663B',
-  			color_3: '#E8ECD7',
+  			color_1: '#25293A', //deep gray
+  			color_2: '#2DBEFD', //blue
+  			color_3: '#FF0000', //red
   			color_4: '#d1d5db'
   		},
   		borderRadius: {

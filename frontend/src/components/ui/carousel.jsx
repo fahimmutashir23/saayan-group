@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import * as React from "react"
 import useEmblaCarousel from "embla-carousel-react";
-import { ArrowLeft, ArrowRight } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const CarouselContext = React.createContext(null)
 
@@ -149,28 +149,27 @@ const CarouselItem = React.forwardRef(({ className, ...props }, ref) => {
 })
 CarouselItem.displayName = "CarouselItem"
 
-const CarouselPrevious = React.forwardRef(({ className, variant = "outline", size = "icon", ...props }, ref) => {
+const CarouselPrevious = React.forwardRef(({ className, variant = "", ...props }, ref) => {
   const { orientation, scrollPrev, canScrollPrev } = useCarousel()
 
   return (
     (<Button
       ref={ref}
       variant={variant}
-      size={size}
-      className={cn("absolute  h-8 w-8 border-black rounded-none", orientation === "horizontal"
+      className={cn("absolute bg-color_2 px-8 py-4 rounded-none skew-y-6", orientation === "horizontal"
         ? "-left-12 top-1/2 -translate-y-1/2"
         : "-top-12 left-1/2 -translate-x-1/2 rotate-90", className)}
       disabled={!canScrollPrev}
       onClick={scrollPrev}
       {...props}>
-      <ArrowLeft className="h-4 w-4" />
+      <FaArrowLeft />
       <span className="sr-only">Previous slide</span>
     </Button>)
   );
 })
 CarouselPrevious.displayName = "CarouselPrevious"
 
-const CarouselNext = React.forwardRef(({ className, variant = "outline", size = "icon", ...props }, ref) => {
+const CarouselNext = React.forwardRef(({ className, variant = "", size = "icon", ...props }, ref) => {
   const { orientation, scrollNext, canScrollNext } = useCarousel()
 
   return (
@@ -178,13 +177,13 @@ const CarouselNext = React.forwardRef(({ className, variant = "outline", size = 
       ref={ref}
       variant={variant}
       size={size}
-      className={cn("absolute h-8 w-8 border-black rounded-none", orientation === "horizontal"
+      className={cn("absolute bg-color_2 px-8 py-4 rounded-none -skew-y-6", orientation === "horizontal"
         ? "-right-12 top-1/2 -translate-y-1/2"
         : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90", className)}
       disabled={!canScrollNext}
       onClick={scrollNext}
       {...props}>
-      <ArrowRight className="h-4 w-4" />
+      <FaArrowRight />
       <span className="sr-only">Next slide</span>
     </Button>)
   );

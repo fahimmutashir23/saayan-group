@@ -1,64 +1,49 @@
-import HoverCart from "@/Pages/Cart/HoverCart";
-import { useState } from "react";
-import { IoCartSharp } from "react-icons/io5";
 import { Link, NavLink } from "react-router";
+import SmallMenu from "./Partial/SmallMenu";
+import { useState } from "react";
+import { MdOutlineMenu } from "react-icons/md";
+import { navItem } from "./Partial/navItem";
 
 const NavbarMain = () => {
-  const [isCartOpen, setIsCartOpen] = useState(false);
+  const [open, setOpen] = useState(false);
+
   return (
-    <div className="bg-color_1 hidden lg:block relative">
+    <div className="bg-color_1 relative px-2 lg:px-1 py-2 lg:py-0">
       <div className="max-w-7xl mx-auto text-white flex justify-between">
-        <div>
-          <ul className="flex items-center gap-3 text-xl">
-            <NavLink
-              to={"/shop"}
-              className={({ isActive, isPending }) =>
-                isPending
-                  ? "pending"
-                  : isActive
-                  ? "px-4 py-5 bg-color_4/20"
-                  : "px-4 py-5"
-              }
-            >
-              Shop
-            </NavLink>
-            <NavLink
-              to={"/about"}
-              className={({ isActive, isPending }) =>
-                isPending
-                  ? "pending"
-                  : isActive
-                  ? "px-4 py-5 bg-color_4/20"
-                  : "px-4 py-5"
-              }
-            >
-              About
-            </NavLink>
-            <NavLink
-              to={"/contact"}
-              className={({ isActive, isPending }) =>
-                isPending
-                  ? "pending"
-                  : isActive
-                  ? "px-4 py-5 bg-color_4/20"
-                  : "px-4 py-5"
-              }
-            >
-              Contact
-            </NavLink>
+        <div className="lg:flex-1 flex justify-center items-center lg:justify-start">
+          <Link to="/" className="lg:text-4xl font-bold text-white">
+            LOGO
+          </Link>
+        </div>
+        <div className="hidden lg:flex">
+          <ul className="flex items-center text-xl">
+            {navItem.map((item, idx) => (
+              <NavLink
+                key={idx}
+                to={item.link}
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "px-4 py-5 bg-color_4/20"
+                    : "px-4 py-5"
+                }
+              >
+                {item.name}
+              </NavLink>
+            ))}
           </ul>
         </div>
-        <Link to="/cart" className="flex items-stretch group relative">
-          <div 
-          onMouseEnter={() => setIsCartOpen(true)}
-          onMouseLeave={() => setIsCartOpen(false)}
-          className="flex items-center gap-2 bg-color_2/50 px-4 py-5 text-xl">
-            <IoCartSharp className="text-2xl" />
-            My Cart
-          </div>
-          <div className="bg-color_2 px-4 py-5 text-xl">00</div>
-          <HoverCart isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen} />
-        </Link>
+        <div className="lg:hidden">
+          <MdOutlineMenu onClick={() => setOpen(!open)} className="text-2xl" />
+        </div>
+      </div>
+      <div
+        className={`lg:hidden absolute top-0 ${
+          open ? "left-0" : "-left-[100%]"
+        } duration-300 z-30 w-full`}
+      >
+        <SmallMenu setOpen={setOpen} open={open} />
       </div>
     </div>
   );
