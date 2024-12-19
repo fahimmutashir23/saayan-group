@@ -5,7 +5,7 @@ import {
     CarouselItem,
     CarouselNext,
     CarouselPrevious,
-  } from "@/Components/ui/carousel";
+  } from "@/components/ui/carousel";
 import Card from "../Card";
 
 const BestSaler = () => {

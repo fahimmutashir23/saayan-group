@@ -4,7 +4,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/Components/ui/carousel";
+} from "@/components/ui/carousel";
 import Card from "@/Pages/Home/Partials/Products/Card";
 import SectionHeader from "@/Utils/SectionHeader";
 
