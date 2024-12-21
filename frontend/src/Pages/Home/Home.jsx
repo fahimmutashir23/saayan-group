@@ -1,13 +1,16 @@
-import Ads1 from "./Partials/Ads/Ads1";
-import Ads2 from "./Partials/Ads/Ads2";
+
 import Banner from "./Partials/Banner/Banner";
+import Bg_1 from "./Partials/Bg_1/Bg_1";
+import Count from "./Partials/Count/Count";
+import OurService from "./Partials/OurService/OurService";
 
 const Home = () => {
   return (
     <div className="space-y-10">
       <Banner />
-      <Ads1 />
-      <Ads2 />
+      <OurService />
+      <Bg_1 />
+      <Count />
     </div>
   );
 };

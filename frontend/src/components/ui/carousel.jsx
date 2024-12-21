@@ -156,7 +156,7 @@ const CarouselPrevious = React.forwardRef(({ className, variant = "", ...props }
     (<Button
       ref={ref}
       variant={variant}
-      className={cn("absolute bg-color_2 px-8 py-4 rounded-none skew-y-6", orientation === "horizontal"
+      className={cn("absolute bg-color_2/70 lg:bg-color_2 hover:bg-color_2 lg:hover:bg-color_2/50 px-8 py-4 rounded-none skew-y-6", orientation === "horizontal"
         ? "-left-12 top-1/2 -translate-y-1/2"
         : "-top-12 left-1/2 -translate-x-1/2 rotate-90", className)}
       disabled={!canScrollPrev}
@@ -177,7 +177,7 @@ const CarouselNext = React.forwardRef(({ className, variant = "", size = "icon",
       ref={ref}
       variant={variant}
       size={size}
-      className={cn("absolute bg-color_2 px-8 py-4 rounded-none -skew-y-6", orientation === "horizontal"
+      className={cn("absolute bg-color_2/70 lg:bg-color_2 hover:bg-color_2 lg:hover:bg-color_2/50 px-8 py-4 rounded-none -skew-y-6", orientation === "horizontal"
         ? "-right-12 top-1/2 -translate-y-1/2"
         : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90", className)}
       disabled={!canScrollNext}

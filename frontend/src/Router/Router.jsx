@@ -6,7 +6,6 @@ import Shop from "@/Pages/Shop/Shop";
 import NotFound from "@/Shared/ErrorPage/NotFound";
 import Contact from "@/Pages/Contact/Contact";
 import Register from "@/Pages/Auth/Register";
-import SingleProduct from "@/Pages/SingleProduct/SingleProduct";
 import Account from "@/Pages/Account/Account";
 import CheckLogin from "@/Security/CheckLogin";
 
@@ -20,7 +19,6 @@ const Router = () => {
           <Route path="/shop" element={<Shop />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/singleProduct" element={<SingleProduct />} />
           <Route
             path="/account"
             element={
