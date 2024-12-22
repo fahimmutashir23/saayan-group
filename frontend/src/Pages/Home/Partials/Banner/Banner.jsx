@@ -47,7 +47,7 @@ const Banner = () => {
                   specializing in import and export services across Bangladesh.
                   Trusted for quality, reliability.
                 </p>
-                <Link className="flex items-center text-xl bg-color_2 py-1 lg:py-3 px-6 text-white font-semibold">
+                <Link to='/trades' className="flex items-center text-xl bg-color_2 py-1 lg:py-3 px-6 text-white font-semibold">
                   View Our Service
                   <MdKeyboardArrowRight className="text-3xl" />
                 </Link>
@@ -80,7 +80,7 @@ const Banner = () => {
                   Saudi Arabia, Dubai, Qatar, Oman, and beyond. Your trusted
                   partner in Bangladesh.
                 </p>
-                <Link className="flex items-center text-xl bg-color_2 py-1 lg:py-3 px-6 text-white font-semibold">
+                <Link to='/consultancy' className="flex items-center text-xl bg-color_2 py-1 lg:py-3 px-6 text-white font-semibold">
                   View Our Service
                   <MdKeyboardArrowRight className="text-3xl" />
                 </Link>
@@ -110,7 +110,7 @@ const Banner = () => {
                   your table. Our commitment to excellence ensures fresh,
                   healthy.
                 </p>
-                <Link className="flex items-center text-xl bg-color_2 py-1 lg:py-3 px-6 text-white font-semibold">
+                <Link to='/agro' className="flex items-center text-xl bg-color_2 py-1 lg:py-3 px-6 text-white font-semibold">
                   View Our Service
                   <MdKeyboardArrowRight className="text-3xl" />
                 </Link>
