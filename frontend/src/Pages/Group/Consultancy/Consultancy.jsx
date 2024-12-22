@@ -1,6 +1,6 @@
 import PageHeader from "@/Shared/PageHeader/PageHeader";
 import travel from "../../../assets/Service/travel.jpg";
-import founder from "../../../assets/Service/founder.jpg";
+import founder from "../../../assets/Profile/founder.jpg";
 import Founder from "@/Shared/Founder/Founder";
 import Recruitment from "./Partial/Recruitment";
 

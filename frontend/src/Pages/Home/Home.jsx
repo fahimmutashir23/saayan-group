@@ -1,4 +1,4 @@
-import founder from "../../assets/Service/founder.jpg";
+import founder from "../../assets/Profile/founder.jpg";
 import Founder from "@/Shared/Founder/Founder";
 import Banner from "./Partials/Banner/Banner";
 import Bg_1 from "./Partials/Bg_1/Bg_1";
