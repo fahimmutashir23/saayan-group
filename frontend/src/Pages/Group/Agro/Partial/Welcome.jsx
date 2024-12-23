@@ -11,7 +11,7 @@ const Welcome = () => {
         />
       </div>
       <div className="p-2 rounded-lg lg:w-1/2">
-        <h1 className="text-xl lg:text-5xl font_title font-bold mb-4 border-b-2 max-w-fit text-color_3">
+        <h1 className="text-xl lg:text-5xli font_title font-bold mb-4 border-b-2 max-w-fit text-color_3">
           Welcome to Saayan Agro
         </h1>
         <p className="text-lg font-medium text-justify">
