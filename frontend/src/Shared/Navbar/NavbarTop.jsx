@@ -14,7 +14,8 @@ const NavbarTop = () => {
         <div className="flex items-center gap-2 text-xs lg:text-sm">
           <h2 className="flex items-center gap-1">
             <FaPhone className="text-color_3" />
-            <span className="text-black">+880 1581868984</span>
+            <span className="text-black">+880 1757 489756</span>
+            <span className="text-black">+880 1719 381825</span>
           </h2>
           <div className="h-4 w-[1px] bg-white"></div>
           <h2 className="flex items-center gap-1">

@@ -10,6 +10,10 @@ import { FaQuoteRight } from "react-icons/fa";
 const Testimonial = () => {
   return (
     <div className="bg-gray-100 lg:px-5 py-14 lg:py-20">
+      <h1 className="text-color_3 text-2xl lg:text-4xl font-bold text-center">
+       Testimonials
+      </h1>
+      <div className="w-28 h-1 rounded-full mx-auto bg-black mb-6"></div>
       <Carousel
         opts={{
           align: "start",

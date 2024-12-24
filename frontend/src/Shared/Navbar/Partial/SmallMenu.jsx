@@ -26,7 +26,7 @@ const SmallMenu = ({ setOpen, open }) => {
         <ul className=" text-xl space-y-4">
           {navItem.map((item, idx) => (
             <li key={idx} className="px-3">
-              <Link to={item.link}>{item.name}</Link>
+              <Link onClick={() => setOpen(false)} to={item.link}>{item.name}</Link>
             </li>
           ))}
         </ul>

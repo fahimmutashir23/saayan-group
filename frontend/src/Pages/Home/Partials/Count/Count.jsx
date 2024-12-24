@@ -10,7 +10,7 @@ const Count = () => {
   return (
     <section
       ref={ref}
-      className="flex flex-col lg:flex-row items-center lg:justify-evenly bg-gray-200 py-3 lg:py-10"
+      className="flex items-center justify-evenly bg-gray-200 py-5 lg:py-10"
     >
       <div className="">
         <h2 className="text-xl lg:text-4xl font-semibold uppercase text-gray-600">

@@ -3,10 +3,10 @@ import mainImg from "../../../../assets/Service/agro.jpg";
 const Welcome = () => {
   return (
     <div className="flex flex-col lg:flex-row-reverse gap-5 lg:gap-20">
-      <div className="lg:w-1/2 lg:h-[450px] overflow-hidden p-1 rounded-lg">
+      <div className="lg:w-1/2 w-full lg:h-[450px] overflow-hidden p-1 rounded-lg">
         <img
           src={mainImg}
-          className="h-full w-1/2 lg:w-full object-cover rounded-lg"
+          className="h-full w-full object-cover rounded-lg"
           alt=""
         />
       </div>

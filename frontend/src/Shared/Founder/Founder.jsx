@@ -3,10 +3,10 @@
 const Founder = ({ text, image }) => {
   return (
     <div className="flex flex-col lg:flex-row gap-5">
-      <div className="lg:w-1/3 lg:h-[450px] overflow-hidden p-1 border-[3px] border-color_4 rounded-lg bg-color_2">
+      <div className="lg:w-1/3 w-full lg:h-[450px] overflow-hidden p-1 border-[3px] border-color_4 rounded-lg bg-color_2">
         <img
           src={image}
-          className="h-full w-1/2 lg:w-full object-cover rounded-lg"
+          className="h-full w-full object-cover rounded-lg"
           alt=""
         />
       </div>

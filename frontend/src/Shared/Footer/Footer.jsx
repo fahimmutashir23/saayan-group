@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -8,12 +9,7 @@ const Footer = () => {
             LOGO
           </h1>
           <p className="text-justify">
-            ঘুড়ি, যেখানে স্বাস্থ্য এবং স্থায়িত্বের প্রতিশ্রুতি আমরা যা
-            কিছু করি তার কেন্দ্রবিন্দুতে। আমরা মানসম্পন্ন নিরাপদ পণ্যগুলির একটি
-            বৈচিত্র্যময় পরিসীমা সরবরাহ করতে পেরে গর্বিত যা কেবল আপনার শরীরকেই
-            পুষ্ট করে না বরং পৃথিবিকে একটি স্বাস্থ্যকর গ্রহে পরিণত করতে অবদান
-            রাখে। ghuri.com এ, আমরা সুস্থতার পরিসিমা বৃদ্ধির জন্য বিশুদ্ধ,
-            প্রাকৃতিক উপাদানগুলির শক্তিতে বিশ্বাস করি।
+          At Saayan Group, our vision has always been to create a legacy of trust, excellence, and innovation. Whether through empowering global trade with Saayan Traders, connecting opportunities with Saayan Consultancy Services, or nurturing sustainability with Saayan Agro, our mission is to serve with integrity and commitment.
           </p>
         </div>
         <div className="lg:col-span-2 col-span-6">
@@ -25,11 +21,11 @@ const Footer = () => {
           </ul>
         </div>
         <div className="lg:col-span-2 col-span-6">
-          <ul>
-            <li className="text-slate-100 font-semibold mb-3">Company</li>
-            <li className="">About Us</li>
-            <li className="">Return policy</li>
-            <li className="">Refund policy</li>
+          <ul className="space-y-2">
+            <li className="text-slate-100 font-semibold mb-3">Our Section</li>
+            <li className="hover:text-color_3 duration-300"><Link to='/trades'>Saayan Trades</Link></li>
+            <li className="hover:text-color_3 duration-300"><Link to='/agro'>Saayan Agro</Link></li>
+            <li className="hover:text-color_3 duration-300"><Link to='/consultancy'>Saayan Consultancy</Link></li>
           </ul>
         </div>
         <div className="lg:col-span-3 col-span-12">
