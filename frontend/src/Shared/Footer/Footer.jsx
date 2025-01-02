@@ -1,14 +1,13 @@
 import { Link } from "react-router";
+import Logo from "../Logo/Logo";
 
 const Footer = () => {
   return (
     <div className="bg-color_1 py-4 md:py-10 px-2 lg:px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-12 gap-4 lg:gap-10 text-slate-300">
         <div className="lg:col-span-5 col-span-12">
-          <h1 className="flex justify-center lg:justify-start text-white font-bold text-4xl">
-            LOGO
-          </h1>
-          <p className="text-justify">
+        <Logo w='w-2/3' />
+          <p className="text-justify mt-4">
           At Saayan Group, our vision has always been to create a legacy of trust, excellence, and innovation. Whether through empowering global trade with Saayan Traders, connecting opportunities with Saayan Consultancy Services, or nurturing sustainability with Saayan Agro, our mission is to serve with integrity and commitment.
           </p>
         </div>

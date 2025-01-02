@@ -1,82 +1,44 @@
-import BreadcrumbTab from "@/Utils/BreadcrumbTab";
-import { input } from "@/Utils/Class/input";
+
 import TabTitle from "@/Utils/TabTitle";
+import { FaGlobe } from "react-icons/fa";
+import { FaLocationDot, FaPhone } from "react-icons/fa6";
 
 const Contact = () => {
   return (
     <div>
       <TabTitle title="Contact" />
-      <BreadcrumbTab menu={[{ name: "Contact", link: null }]} />
-      <div>
-        <h1 className="text-xl lg:text-2xl font-semibold text-color_2">
-          Send Message
-        </h1>
-        <form className="mt-4 flex flex-col lg:flex-row gap-4">
-          <div className="lg:w-4/12 space-y-5">
-            <div className="">
-              <label className="font-semibold">
-                Name
-                <span className="text-red-400 ml-1 text-sm">
-                  (required)
-                </span>{" "}
-              </label>
-              <input
-                type="text"
-                name="name"
-                className={input.form}
-                placeholder="Type Here"
-                required
-              />
-            </div>
-            <div className="">
-              <label className="font-semibold">
-                Email
-                <span className="text-red-400 ml-1 text-sm">
-                  (required)
-                </span>{" "}
-              </label>
-              <input
-                type="email"
-                name="email"
-                className={input.form}
-                placeholder="Type Here"
-                required
-              />
-            </div>
-            <div className="">
-              <label className="font-semibold">
-                Phone
-                <span className="text-red-400 ml-1 text-sm">
-                  (required)
-                </span>{" "}
-              </label>
-              <input
-                type="text"
-                name="phone"
-                className={input.form}
-                placeholder="Type Here"
-                required
-              />
-            </div>
-            <button type="submit" className="bg-color_1 text-white text-lg font-medium px-3 py-1 w-full hover:bg-color_2 duration-300">Submit</button>
+      <h1 className="text-color_3 text-2xl lg:text-4xl font-bold text-center">
+        Contact Us
+      </h1>
+      <div className="w-28 h-1 rounded-full mx-auto bg-black mb-4"></div>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div className="p-10 bg-color_4 rounded-sm group hover:shadow-md duration-300 flex flex-col items-center">
+          <div className="bg-white p-4 max-w-fit rounded-full">
+            <FaPhone className="text-3xl text-color_3" />
           </div>
-          <div className="lg:w-8/12">
-            <div className="">
-              <label className="font-semibold">
-                Your Message
-                <span className="text-red-400 ml-1 text-sm">
-                  (required)
-                </span>{" "}
-              </label>
-            </div>
-            <textarea
-              name="message"
-              rows="11"
-              className={input.form}
-              required
-            ></textarea>
+          <p className="font-semibold mt-3 text-gray-600">
+          +880 1757489756 <br />
+          +880 1719381825
+          </p>
+        </div>
+        <div className="p-10 bg-color_4 rounded-sm group hover:shadow-md duration-300 flex flex-col items-center">
+          <div className="bg-white p-4 max-w-fit rounded-full">
+            <FaGlobe className="text-3xl text-color_3" />
           </div>
-        </form>
+          <p className="font-semibold mt-3 text-gray-600 text-center">
+          info@saayantradersbd.com <br />
+          salmankhansabuj@gmail.com <br />
+          www.saayangroupbd.com
+          </p>
+        </div>
+        <div className="p-10 bg-color_4 rounded-sm group hover:shadow-md duration-300 flex flex-col items-center">
+          <div className="bg-white p-4 max-w-fit rounded-full">
+            <FaLocationDot className="text-3xl text-color_3" />
+          </div>
+          <p className="font-semibold mt-3 text-gray-600 text-center">
+          H#81, Bir Uttam Ziaur Rahman Road, Banani, Dhaka-1213
+          </p>
+        </div>
       </div>
     </div>
   );

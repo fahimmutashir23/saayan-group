@@ -3,6 +3,7 @@ import SmallMenu from "./Partial/SmallMenu";
 import { useState } from "react";
 import { MdOutlineMenu } from "react-icons/md";
 import { navItem } from "./Partial/navItem";
+import Logo from "../Logo/Logo";
 
 const NavbarMain = () => {
   const [open, setOpen] = useState(false);
@@ -12,7 +13,7 @@ const NavbarMain = () => {
       <div className="max-w-7xl mx-auto text-white flex justify-between">
         <div className="lg:flex-1 flex justify-center items-center lg:justify-start">
           <Link to="/" className="lg:text-4xl font-bold text-white">
-            LOGO
+           <Logo w='w-2/3' />
           </Link>
         </div>
         <div className="hidden lg:flex">
