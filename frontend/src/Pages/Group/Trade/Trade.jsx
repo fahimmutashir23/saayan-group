@@ -6,12 +6,13 @@ import trade from "../../../assets/Logo/Saayan Traders.png";
 import BottomBanner from "./Partial/BottomBanner";
 import Help from "./Partial/Help";
 import Client from "./Partial/Client/Client";
+import FAQ from "./Partial/FAQ";
 
 const Trade = () => {
   return (
     <div>
       <TabTitle title="Saayan Traders" />
-      <div className="space-y-10">
+      <div className="space-y-10 lg:space-y-20">
         <div data-aos='zoom-in' data-aos-duration='1000' className="flex justify-center">
           <img src={trade} className="w-1/3 lg:w-1/6" alt="" />
         </div>
@@ -20,6 +21,7 @@ const Trade = () => {
         <BottomBanner />
         <Help />
         <Client />
+        <FAQ />
       </div>
     </div>
   );

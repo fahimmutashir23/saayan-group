@@ -7,7 +7,7 @@ const Help = () => {
       <h1 className="text-color_3 text-2xl lg:text-4xl font-bold text-center">
         How Can We Help
       </h1>
-      <div className="w-28 h-1 rounded-full mx-auto bg-black mb-4"></div>
+      <div className="w-28 h-1 rounded-full mx-auto bg-black mb-10"></div>
       <section className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10">
         <div className="flex flex-col items-center space-y-5 p-5 lg:p-10 rounded-md shadow-sm shadow-color_3/50 duration-300 hover:scale-105 group">
           <div className="bg-color_2 p-3 rounded-full max-w-fit">
