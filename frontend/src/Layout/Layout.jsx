@@ -8,9 +8,9 @@ import Service from "@/Shared/Footer/Service";
 
 const Layout = () => {
   return (
-    <div>
-      <div>
+    <div className="relative">
         <NavbarTop />
+      <div className="sticky top-0 z-50">
         <NavbarMain />
       </div>
       <div className="bg-white pt-2 pb-4 max-w-7xl mx-auto px-1">

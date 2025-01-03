@@ -3,6 +3,9 @@ import img from "../../../assets/Trade/tradeBanner.jpeg";
 import Welcome from "./Partial/Welcome";
 import TabTitle from "@/Utils/TabTitle";
 import trade from "../../../assets/Logo/Saayan Traders.png";
+import BottomBanner from "./Partial/BottomBanner";
+import Help from "./Partial/Help";
+import Client from "./Partial/Client/Client";
 
 const Trade = () => {
   return (
@@ -14,6 +17,9 @@ const Trade = () => {
         </div>
         <PageHeader img={img} name="Saayan Traders" />
         <Welcome />
+        <BottomBanner />
+        <Help />
+        <Client />
       </div>
     </div>
   );

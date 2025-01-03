@@ -1,9 +1,8 @@
 import {
   FaFacebook,
-  FaInstagram,
+  FaLinkedin,
   FaMailBulk,
   FaWhatsapp,
-  FaYoutube,
 } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 
@@ -20,20 +19,17 @@ const NavbarTop = () => {
           <div className="h-4 w-[1px] bg-white"></div>
           <h2 className="flex items-center gap-1">
             <FaMailBulk className="text-color_3" />
-            <span className="text-black">example@gmail.com</span>
+            <span className="text-black">info@saayangroupbd.com</span>
           </h2>
         </div>
         <div className="flex items-center space-x-4 justify-center text-sm lg:text-base mt-2 lg:mt-0">
-          <a href="" className="bg-slate-200 p-1">
+          <a href="https://www.facebook.com/profile.php?id=61571548554146&mibextid=ZbWKwL" className="bg-slate-200 p-1">
             <FaFacebook className="text-color_3 lg:text-xl" />
           </a>
-          <a href="" className="bg-slate-200 p-1">
-            <FaInstagram className="text-color_3 lg:text-xl" />
+          <a href="https://www.linkedin.com/in/salman-sabuj-1365171a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="bg-slate-200 p-1">
+            <FaLinkedin className="text-color_3 lg:text-xl" />
           </a>
-          <a href="" className="bg-slate-200 p-1">
-            <FaYoutube className="text-color_3 lg:text-xl" />
-          </a>
-          <a href="" className="bg-slate-200 p-1">
+          <a href="https://wa.me/+880 1719-381825" className="bg-slate-200 p-1">
             <FaWhatsapp className="text-color_3 lg:text-xl" />
           </a>
         </div>
