@@ -10,6 +10,7 @@ import Page_1 from "@/Pages/Group/Consultancy/Partial/Options/Page_1";
 import Page_2 from "@/Pages/Group/Consultancy/Partial/Options/Page_2";
 import Page_3 from "@/Pages/Group/Consultancy/Partial/Options/Page_3";
 import Page_4 from "@/Pages/Group/Consultancy/Partial/Options/Page_4";
+import About from "@/Pages/About/About";
 
 const Router = () => {
   return (
@@ -21,6 +22,7 @@ const Router = () => {
           <Route path="/agro" element={<Agro />} />
           <Route path="/consultancy" element={<Consultancy />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
           <Route path="/consultancy/page_1" element={<Page_1 />} />
           <Route path="/consultancy/page_2" element={<Page_2 />} />
           <Route path="/consultancy/page_3" element={<Page_3 />} />
