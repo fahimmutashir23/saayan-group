@@ -33,7 +33,7 @@ const Details = () => {
           sector can emerge more if the government can concerned authority can
           give proper support. There are a number of agro product exporters
           company in Dhaka who doing their business successfully for a long
-          time. The Sardar Enterprise is one of them. They established their
+          time. The Saayan Agro is one of them. They established their
           agro-business about 15 years ago. They believe in farming their agro
           product to ensure purity. From the beginning, the Saayan Traders focus
           on producing organic farming so that they can provide the best quality
@@ -42,7 +42,7 @@ const Details = () => {
           Satkhira, Khulna. They export a variety of fresh vegetables and
           fruits, including beef, and mutton produced on their own farms. That
           is why their products are currently the best in the market in terms of
-          quality. The Sardar Enterprise not only has set up a large agro farm
+          quality. The Saayan Agro not only has set up a large agro farm
           but also creates employment for a remarkable number of jobless people.
           As a result, the village of Dumuria and its environs have also
           improved a lot in social-economic aspects. It would not be an
@@ -103,8 +103,7 @@ const Details = () => {
           shipments from Dubai and Chine to Bangladesh. They will import your
           product by sea or air as per your demand. <br />
           <strong>Step 5</strong> <br />
-          You don’t have to worry about the custom clearance at all. The Sardar
-          Enterprise will do it for you. They will do all necessary paper works
+          You don’t have to worry about the custom clearance at all. The Saayan Agro will do it for you. They will do all necessary paper works
           so that the shipments can be released as soon as possible. In fact,
           they take all the required steps to send goods to Dhaka or Chittagong
           airport and Kamlapur ICD. <br />
