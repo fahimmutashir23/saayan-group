@@ -29,7 +29,10 @@ const NavbarTop = () => {
           <a href="https://www.linkedin.com/in/salman-sabuj-1365171a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="bg-slate-200 p-1">
             <FaLinkedin className="text-color_3 lg:text-xl" />
           </a>
-          <a href="https://wa.me/+880 1719-381825" className="bg-slate-200 p-1">
+          <a href="https://wa.me/8801719381825" className="bg-slate-200 p-1">
+            <FaWhatsapp className="text-color_3 lg:text-xl" />
+          </a>
+          <a href="http://wa.me/8801757489756" className="bg-slate-200 p-1">
             <FaWhatsapp className="text-color_3 lg:text-xl" />
           </a>
         </div>

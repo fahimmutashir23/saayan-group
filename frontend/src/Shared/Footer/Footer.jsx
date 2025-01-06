@@ -75,16 +75,22 @@ const Footer = () => {
           </a>
           <div className="flex w-full">
             <a
-              href="https://wa.me/+880 1719-381825"
+              href="https://wa.me/8801719381825"
               className="bg-black hover:bg-black/20 duration-300 w-full flex justify-center py-2 border-r"
             >
               <FaWhatsapp className="text-3xl" />
             </a>
             <a
               href={linkedin} target="_blank"
-              className="bg-black hover:bg-black/20 duration-300 w-full flex justify-center py-2 border-l"
+              className="bg-black hover:bg-black/20 duration-300 w-full flex justify-center py-2 border-x"
             >
               <FaLinkedin className="text-3xl" />
+            </a>
+            <a
+              href="https://wa.me/8801757489756"
+              className="bg-black hover:bg-black/20 duration-300 w-full flex justify-center py-2 border-l"
+            >
+              <FaWhatsapp className="text-3xl" />
             </a>
           </div>
         </div>

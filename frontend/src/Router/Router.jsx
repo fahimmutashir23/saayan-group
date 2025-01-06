@@ -11,6 +11,8 @@ import Page_2 from "@/Pages/Group/Consultancy/Partial/Options/Page_2";
 import Page_3 from "@/Pages/Group/Consultancy/Partial/Options/Page_3";
 import Page_4 from "@/Pages/Group/Consultancy/Partial/Options/Page_4";
 import About from "@/Pages/About/About";
+import Details from "@/Pages/Group/Trade/Partial/Details";
+import ExportImport from "@/Pages/Group/Trade/Partial/Service/ExportImport";
 
 const Router = () => {
   return (
@@ -27,6 +29,8 @@ const Router = () => {
           <Route path="/consultancy/page_2" element={<Page_2 />} />
           <Route path="/consultancy/page_3" element={<Page_3 />} />
           <Route path="/consultancy/page_4" element={<Page_4 />} />
+          <Route path="/trades/details" element={<Details />} />
+          <Route path="/trades/export-import" element={<ExportImport />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

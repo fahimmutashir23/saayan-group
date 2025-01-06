@@ -4,6 +4,7 @@ import meat from "../../../../assets/Agro/meat.jpg";
 import vegetable from "../../../../assets/Agro/vegetable.jpg";
 import feed from "../../../../assets/Agro/feed-2.jpeg";
 import feed_2 from "../../../../assets/Agro/cattle-feed.png";
+import fish from "../../../../assets/Agro/fish1.jpg";
 
 const Serve = () => {
   return (
@@ -13,6 +14,55 @@ const Serve = () => {
       </h1>
       <div className="w-28 h-1 rounded-full mx-auto bg-black mb-4"></div>
       <section className="space-y-4 lg:space-y-10">
+        <div className="flex flex-col lg:flex-row-reverse gap-2 lg:gap-14">
+          <div
+            data-aos="fade-left"
+            className="lg:flex-1 rounded-tl-[200px] rounded-br-[200px] overflow-hidden"
+          >
+            <img src={fish} className="h-full w-full object-fill" alt="" />
+          </div>
+          <div data-aos="fade-right" className="lg:flex-1 space-y-2">
+            <h1 className="italic text-color_3 font-semibold text-2xl">
+              Fishing Project
+            </h1>
+            <p className="space-y-2">
+              At Saayan Agro, we are proud to expand our offerings into the
+              realm of high-quality fishing products, catering to both local and
+              international markets. Fishing has always been an integral part of
+              our agricultural heritage, and we aim to elevate this tradition by
+              integrating sustainable practices and modern technology into our
+              operations.
+              <br />
+              Our fishing products include a variety of fresh and processed
+              fish, ensuring premium quality and freshness from pond to plate.
+              With carefully managed fish farming practices and advanced
+              processing techniques, we deliver a wide range of seafood that
+              meets the nutritional and culinary needs of our customers.
+            </p>
+            <p>
+              <strong className="text-color_3">
+                Why Choose Saayan Agro’s Fishing Project?
+              </strong>
+              <ul>
+                <li>
+                  <strong>Exceptional Quality Assurance:</strong> We prioritize quality at every step, ensuring our fish products are fresh, safe, and delicious. Rigorous checks and modern processing methods guarantee a superior experience for our customers.
+                </li>
+                <li>
+                  <strong>Sustainable and Responsible Practices:</strong> Our commitment to sustainability ensures that we preserve marine ecosystems while meeting consumer demand. We farm and harvest responsibly to maintain ecological balance and provide long-term benefits.
+                </li>
+                <li>
+                  <strong>Nutritional Excellence:</strong> Fish is a rich source of essential nutrients like omega-3 fatty acids, protein, and vitamins. Our products are designed to promote health and well-being by offering the best of what nature has to provide.
+                </li>
+                <li>
+                  <strong>Wide Variety to Meet Every Need:</strong> Whether you’re looking for everyday staples or premium seafood options, we offer a diverse range of fish products to suit all preferences and budgets.
+                </li>
+                <li>
+                  <strong>Trusted and Transparent:</strong> With Saayan Agro, you can trust that you’re getting seafood that is ethically sourced, hygienically processed, and delivered with care. Our transparency and dedication to customer satisfaction set us apart.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
         <div className="flex flex-col lg:flex-row gap-2 lg:gap-14">
           <div
             data-aos="fade-right"
@@ -21,7 +71,9 @@ const Serve = () => {
             <img src={feed} className="h-full w-full object-cover" alt="" />
           </div>
           <div data-aos="fade-left" className="lg:flex-1 space-y-2">
-            <h1 className="italic text-color_3 font-semibold text-2xl">Poultry Feed Production (New)</h1>
+            <h1 className="italic text-color_3 font-semibold text-2xl">
+              Poultry Feed Production (New)
+            </h1>
             <p className="space-y-2">
               We are committed to supporting the poultry industry with
               scientifically formulated feeds that meet the nutritional needs of
@@ -78,7 +130,9 @@ const Serve = () => {
             <img src={feed_2} className="h-full w-full object-cover" alt="" />
           </div>
           <div data-aos="fade-right" className="lg:flex-1 space-y-2">
-          <h1 className="italic text-color_3 font-semibold text-2xl">Cattle Feed Production (New)</h1>
+            <h1 className="italic text-color_3 font-semibold text-2xl">
+              Cattle Feed Production (New)
+            </h1>
             <p className="space-y-2">
               Our cow feed production unit is dedicated to manufacturing
               nutrient-rich, balanced feed that supports optimal growth and
@@ -135,7 +189,9 @@ const Serve = () => {
             <img src={cattle} className="h-full w-full object-cover" alt="" />
           </div>
           <div data-aos="fade-left" className="lg:flex-1 space-y-2">
-          <h1 className="italic text-color_3 font-semibold text-2xl">Cattle Farming</h1>
+            <h1 className="italic text-color_3 font-semibold text-2xl">
+              Cattle Farming
+            </h1>
             <p className="space-y-2">
               The cattle farming sector of Saayan Agro represents our commitment
               to excellence in livestock management. We maintain a
@@ -185,7 +241,9 @@ const Serve = () => {
             <img src={milk} className="h-full w-full object-cover" alt="" />
           </div>
           <div data-aos="fade-right" className="lg:flex-1 space-y-2">
-          <h1 className="italic text-color_3 font-semibold text-2xl">Milk Product</h1>
+            <h1 className="italic text-color_3 font-semibold text-2xl">
+              Milk Product
+            </h1>
             <p className="space-y-2">
               At Saayan Agro, we are deeply committed to delivering dairy
               products of the highest quality, ensuring freshness and
@@ -238,7 +296,9 @@ const Serve = () => {
             <img src={meat} className="h-full w-full object-cover" alt="" />
           </div>
           <div data-aos="fade-left" className="lg:flex-1 space-y-2">
-          <h1 className="italic text-color_3 font-semibold text-2xl">Meet Products</h1>
+            <h1 className="italic text-color_3 font-semibold text-2xl">
+              Meet Products
+            </h1>
             <p className="space-y-2">
               Meat production is another cornerstone of Saayan Agro, where
               quality, safety, and freshness are non-negotiable. We provide a
@@ -291,7 +351,9 @@ const Serve = () => {
             />
           </div>
           <div data-aos="fade-right" className="lg:flex-1 space-y-2">
-          <h1 className="italic text-color_3 font-semibold text-2xl">Vegetable Products</h1>
+            <h1 className="italic text-color_3 font-semibold text-2xl">
+              Vegetable Products
+            </h1>
             <p className="space-y-2">
               In our vegetable farming sector, Saayan Agro takes pride in
               cultivating a wide variety of fresh, organic, and seasonal
