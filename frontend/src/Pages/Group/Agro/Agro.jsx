@@ -6,10 +6,13 @@ import Organic from "./Partial/Organic";
 import Serve from "./Partial/Serve";
 import Testimonial from "./Partial/Testimonial";
 import TabTitle from "@/Utils/TabTitle";
+import Count from "@/Pages/Home/Partials/Count/Count";
+import TopPage from "@/Utils/TopPage";
 
 const Agro = () => {
   return (
     <div>
+      <TopPage />
       <TabTitle title="Saayan Agro" />
       <div className="space-y-10">
         <div data-aos="zoom-in" data-aos-duration='1000' className="flex justify-center">
@@ -19,6 +22,7 @@ const Agro = () => {
         <Welcome />
         <Organic />
         <Serve />
+        <Count />
         <Testimonial />
       </div>
     </div>

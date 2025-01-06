@@ -7,10 +7,13 @@ import BottomBanner from "./Partial/BottomBanner";
 import Help from "./Partial/Help";
 import Client from "./Partial/Client/Client";
 import FAQ from "./Partial/FAQ";
+import Count from "@/Pages/Home/Partials/Count/Count";
+import TopPage from "@/Utils/TopPage";
 
 const Trade = () => {
   return (
     <div>
+      <TopPage />
       <TabTitle title="Saayan Traders" />
       <div className="space-y-10 lg:space-y-20">
         <div data-aos='zoom-in' data-aos-duration='1000' className="flex justify-center">
@@ -20,6 +23,7 @@ const Trade = () => {
         <Welcome />
         <BottomBanner />
         <Help />
+        <Count />
         <Client />
         <FAQ />
       </div>

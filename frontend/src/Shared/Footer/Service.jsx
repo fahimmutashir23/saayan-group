@@ -11,7 +11,7 @@ const Service = () => {
             <FaRocket className="text-4xl" />
             <div>
               <h1 className="uppercase text-xl font_title font-semibold group-hover:text-color_2">
-                Free Shipping
+                Free consultations
               </h1>
               <h3 className="text-gray-400">online consultations</h3>
             </div>
@@ -24,7 +24,7 @@ const Service = () => {
               <h1 className="uppercase text-xl font_title font-semibold group-hover:text-color_2">
                 24 Hour Support
               </h1>
-              <h3 className="text-gray-400">on order over 500৳</h3>
+              <h3 className="text-gray-400">on order over online</h3>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Service = () => {
             <FaRecycle className="text-4xl" />
             <div>
               <h1 className="uppercase text-xl font_title font-semibold group-hover:text-color_2">
-                30-Days Return
+                Policy of Return
               </h1>
               <h3 className="text-gray-400">cashback guarantee</h3>
             </div>

@@ -2,6 +2,8 @@ import milk from "../../../../assets/Agro/milk.jpg";
 import cattle from "../../../../assets/Agro/cattle.jpg";
 import meat from "../../../../assets/Agro/meat.jpg";
 import vegetable from "../../../../assets/Agro/vegetable.jpg";
+import feed from "../../../../assets/Agro/feed-2.jpeg";
+import feed_2 from "../../../../assets/Agro/cattle-feed.png";
 
 const Serve = () => {
   return (
@@ -16,9 +18,124 @@ const Serve = () => {
             data-aos="fade-right"
             className="lg:flex-1 rounded-tl-[200px] rounded-br-[200px] overflow-hidden"
           >
+            <img src={feed} className="h-full w-full object-cover" alt="" />
+          </div>
+          <div data-aos="fade-left" className="lg:flex-1 space-y-2">
+            <h1 className="italic text-color_3 font-semibold text-2xl">Poultry Feed Production (New)</h1>
+            <p className="space-y-2">
+              We are committed to supporting the poultry industry with
+              scientifically formulated feeds that meet the nutritional needs of
+              poultry at all stages of growth. Our feed promotes healthier
+              birds, better egg production, and improved overall performance,
+              benefiting poultry farmers across the region.
+              <br />
+              As the demand for meat, eggs, and milk in countries around the
+              world continues to increase with economic development and
+              population growth, the animal husbandry industry will continue to
+              develop by leaps and bounds. Therefore, the overall demand for
+              feed is increasing. As the main body of feed, the market capacity
+              of compound feed will continue to grow in the long term.
+            </p>
+            <p>
+              <strong className="text-color_3">
+                Why Choose Saayan Agro’s Poultry Feed?
+              </strong>
+              <ul>
+                <li>
+                  <strong>Scientifically Balanced Nutrition:</strong> Our feed
+                  is formulated by experts to deliver the ideal mix of nutrients
+                  for optimal animal health and productivity.
+                </li>
+                <li>
+                  <strong>Premium-Quality Ingredients:</strong> We source only
+                  the finest raw materials to ensure your livestock and poultry
+                  receive safe, high-quality nutrition.
+                </li>
+                <li>
+                  <strong>Enhanced Growth and Productivity:</strong> Boost milk
+                  production, improve weight gain, and maximize egg yield with
+                  our specially designed feed formulas.
+                </li>
+                <li>
+                  <strong>Age-Specific Formulations:</strong> Our feed caters to
+                  the specific needs of animals at every stage of their life
+                  cycle, from young to mature.
+                </li>
+                <li>
+                  <strong>Environmentally Friendly Production:</strong> We
+                  prioritize sustainability in our processes, reducing
+                  environmental impact while maintaining top quality.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row-reverse gap-2 lg:gap-14">
+          <div
+            data-aos="fade-left"
+            className="lg:flex-1 rounded-tl-[200px] rounded-br-[200px] overflow-hidden"
+          >
+            <img src={feed_2} className="h-full w-full object-cover" alt="" />
+          </div>
+          <div data-aos="fade-right" className="lg:flex-1 space-y-2">
+          <h1 className="italic text-color_3 font-semibold text-2xl">Cattle Feed Production (New)</h1>
+            <p className="space-y-2">
+              Our cow feed production unit is dedicated to manufacturing
+              nutrient-rich, balanced feed that supports optimal growth and
+              health of cattle. By sourcing high-quality raw materials, we
+              ensure that our feed enhances milk production and overall
+              livestock well-being.
+              <br />
+              As the demand for meat, eggs, and milk in countries around the
+              world continues to increase with economic development and
+              population growth, the animal husbandry industry will continue to
+              develop by leaps and bounds. Therefore, the overall demand for
+              feed is increasing. As the main body of feed, the market capacity
+              of compound feed will continue to grow in the long term.
+            </p>
+            <p>
+              <strong className="text-color_3">
+                Why Choose Saayan Agro’s Cow Feed?
+              </strong>
+              <ul>
+                <li>
+                  <strong>Scientifically Balanced Nutrition:</strong> Our feed
+                  is formulated by experts to deliver the ideal mix of nutrients
+                  for optimal animal health and productivity.
+                </li>
+                <li>
+                  <strong>Premium-Quality Ingredients:</strong> We source only
+                  the finest raw materials to ensure your livestock and poultry
+                  receive safe, high-quality nutrition.
+                </li>
+                <li>
+                  <strong>Enhanced Growth and Productivity:</strong> Boost milk
+                  production, improve weight gain, and maximize egg yield with
+                  our specially designed feed formulas.
+                </li>
+                <li>
+                  <strong>Age-Specific Formulations:</strong> Our feed caters to
+                  the specific needs of animals at every stage of their life
+                  cycle, from young to mature.
+                </li>
+                <li>
+                  <strong>Environmentally Friendly Production:</strong> We
+                  prioritize sustainability in our processes, reducing
+                  environmental impact while maintaining top quality.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row gap-2 lg:gap-14">
+          <div
+            data-aos="fade-right"
+            className="lg:flex-1 rounded-tl-[200px] rounded-br-[200px] overflow-hidden"
+          >
             <img src={cattle} className="h-full w-full object-cover" alt="" />
           </div>
           <div data-aos="fade-left" className="lg:flex-1 space-y-2">
+          <h1 className="italic text-color_3 font-semibold text-2xl">Cattle Farming</h1>
             <p className="space-y-2">
               The cattle farming sector of Saayan Agro represents our commitment
               to excellence in livestock management. We maintain a
@@ -68,6 +185,7 @@ const Serve = () => {
             <img src={milk} className="h-full w-full object-cover" alt="" />
           </div>
           <div data-aos="fade-right" className="lg:flex-1 space-y-2">
+          <h1 className="italic text-color_3 font-semibold text-2xl">Milk Product</h1>
             <p className="space-y-2">
               At Saayan Agro, we are deeply committed to delivering dairy
               products of the highest quality, ensuring freshness and
@@ -120,6 +238,7 @@ const Serve = () => {
             <img src={meat} className="h-full w-full object-cover" alt="" />
           </div>
           <div data-aos="fade-left" className="lg:flex-1 space-y-2">
+          <h1 className="italic text-color_3 font-semibold text-2xl">Meet Products</h1>
             <p className="space-y-2">
               Meat production is another cornerstone of Saayan Agro, where
               quality, safety, and freshness are non-negotiable. We provide a
@@ -165,9 +284,14 @@ const Serve = () => {
             data-aos="fade-left"
             className="lg:flex-1 rounded-tr-[200px] rounded-bl-[200px] overflow-hidden"
           >
-            <img src={vegetable} className="h-full w-full object-cover" alt="" />
+            <img
+              src={vegetable}
+              className="h-full w-full object-cover"
+              alt=""
+            />
           </div>
           <div data-aos="fade-right" className="lg:flex-1 space-y-2">
+          <h1 className="italic text-color_3 font-semibold text-2xl">Vegetable Products</h1>
             <p className="space-y-2">
               In our vegetable farming sector, Saayan Agro takes pride in
               cultivating a wide variety of fresh, organic, and seasonal
@@ -184,20 +308,25 @@ const Serve = () => {
             </p>
             <p>
               <strong className="text-color_3">
-              Why Choose Saayan Agro for Vegetables?
+                Why Choose Saayan Agro for Vegetables?
               </strong>
               <ul>
                 <li>
-                  <strong>Chemical-Free Farming:</strong> We grow our vegetables without harmful pesticides or fertilizers.
+                  <strong>Chemical-Free Farming:</strong> We grow our vegetables
+                  without harmful pesticides or fertilizers.
                 </li>
                 <li>
-                  <strong>Freshness First:</strong> Our vegetables are freshly harvested and delivered directly to you.
+                  <strong>Freshness First:</strong> Our vegetables are freshly
+                  harvested and delivered directly to you.
                 </li>
                 <li>
-                  <strong>Nutrient-Rich Produce:</strong> Our farming practices enhance the natural nutrient profile of every vegetable.
+                  <strong>Nutrient-Rich Produce:</strong> Our farming practices
+                  enhance the natural nutrient profile of every vegetable.
                 </li>
                 <li>
-                  <strong>Support for Local Agriculture:</strong> By sourcing from Saayan Agro, you are contributing to the growth of sustainable farming communities.
+                  <strong>Support for Local Agriculture:</strong> By sourcing
+                  from Saayan Agro, you are contributing to the growth of
+                  sustainable farming communities.
                 </li>
               </ul>
             </p>

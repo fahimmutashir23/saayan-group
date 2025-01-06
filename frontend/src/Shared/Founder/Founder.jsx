@@ -16,7 +16,7 @@ const Founder = ({ text, image }) => {
         </h1>
         <p dangerouslySetInnerHTML={{__html: text}} className="text-lg font-medium text-justify"></p>
         <h2 className="text-right font-semibold text-2xl mt-3 text-color_3">
-          Salman Shabuj
+          Md. Salman Hossan Sabuj
         </h2>
         <h4 className="text-right font-semibold text-sm -mt-1">
           Owner of Saayan Group
